@@ -115,7 +115,7 @@ public class AppWindow extends Application {
 		box.getChildren().add(getFileChooserPane(stage)); // Add the sub tree to the main tree
 		box.getChildren().add(getTableView()); // Add the sub tree to the main tree
 		box.getChildren().add(toolBar); // Add the sub tree to the main tree
-		box.getChildren().add(new PolyPannel());
+		box.getChildren().add(new PolyPannel()); // Add the sub tree to the main tree, new polygon panel
 
 		// Display the window
 		stage.show();
